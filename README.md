@@ -32,15 +32,15 @@ real_haze_other: other real hazy images
 
 ### Procedure of Data Synthesis
 <p align='center'>
-<img src="illustrations/flowchart_of_synthesis.png" height="428px" width='615px'>
+  <img src="illustrations/flowchart_of_synthesis.png" height='428' width='615'>
 </div>
  
 <p align='center'>
-<img src="illustrations/refined_depth_map.png" height="388px" width='642px'>
+  <img src="illustrations/refined_depth_map.png" height='388' width='642'>
 </div>
 
 <p align='center'>
-<img src="illustrations/synthetic_hazy_image.png" height="517px" width='632px'>
+  <img src="illustrations/synthetic_hazy_image.png" height='517' width='632'>
 </div>
 
 ### Usage
@@ -57,7 +57,7 @@ The pretrained model is available from [the download link](超連結)
 *.ipynb files in final dehazing result folders(global and local estimation method)*
 
 <p align='center'>
-<img src="illustrates/global_local_estimation.png" height="648px" width='638px'>
+  <img src="illustrates/global_local_estimation.png" height="648px" width='638px'>
 </div>
 
 ### Evaluation on Real Hazy Images
@@ -73,41 +73,41 @@ ref_papers_with_result ( folder contains 12 compared results)
 [link](超連結)
 
 <p align='center'>
-<img src="illustrations/women.png" height="400px" width='631px'>
+  <img src="illustrations/women.png" height='400' width='631'>
 </div>
 
 <p align='center'>
-<img src="illustrations/yosemite2.png" height="578px" width='606px'>
+  <img src="illustrations/yosemite2.png" height='578' width='606'>
 </div>
 
 <p align='center'>
-<img src="illustrations/lviv.png" height="735px" width='451px'>
+  <img src="illustrations/lviv.png" height='735' width='451'>
 </div>
 
 <p align='center'>
-<img src="illustrations/manhattan2.png" height="735px" width='447px'>
+  <img src="illustrations/manhattan2.png" height='735' width='447'>
 </div>
 
 <p align='center'>
-<img src="illustrations/yosemite1.png" height="695px" width='449px'>
+  <img src="illustrations/yosemite1.png" height='695' width='449'>
 </div>
 
 <p align='center'>
-<img src="illustrations/landscape.png" height="745px" width='442px'>
+  <img src="illustrations/landscape.png" height='745' width='442'>
 </div>
 
 ### Evaluation on Synthetic Hazy Images
 
 <p align='center'>
-<img src="illustrations/sots_configurations.png" height="261px" width='421px'>
+  <img src="illustrations/sots_configurations.png" height='261' width='421'>
 </div>
 
 <p align='center'>
-<img src="illustrations/sots_psnr_ssim.png" height="438px" width='349px'>
+  <img src="illustrations/sots_psnr_ssim.png" height='438' width='349'>
 </div>
 
 <p align='center'>
-<img src="illustrations/sots_dehazed.png" height="422px" width='430px'>
+  <img src="illustrations/sots_dehazed.png" height='422' width='430'>
 </div>
 
 
