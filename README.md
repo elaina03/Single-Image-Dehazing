@@ -31,8 +31,8 @@ real_haze_other: other real hazy images
 
 ### Procedure of Data Synthesis
 <p align='center'>
-<img src="illustrates/flowchart_of_synthesis.png" height="428px" width='615px'>
-
+ ![Alt text](illustrations/flowchart_of_synthesis.PNG)
+ 
 <p align='center'>
 <img src="illustrates/refined_depth_map.png" height="388px" width='642px'>
 </div>
