@@ -1,6 +1,6 @@
 ##  DenseFeaturesNet: a single image dehazing network with refined transmission estimation and local atmospheric light prediction
 
-The proposed DenseFeaturesNet exploits the pretrained DenseNet-121 to generate favorable representative features of hazy image, applies two decoders for jointly forecasting the transmission map and global atmospheric light, and finally requires the dehazed image through a refinement module.
+The proposed DenseFeaturesNet exploits the pretrained DenseNet-121 to generate favorable representative features of hazy image, applies two decoders for jointly forecasting the transmission map and global atmospheric light, and finally requires the dehazed image through a refinement module.<br />
 Inorder to strength the dehaze ability on remote scene, the method applies a specific synthesis procedure utilizing refined depth images, the WMSE derived from transmission map for loss computation, and a local estimation method for enhancing the applicability of dehazing in real life.
 
 <p align='center'>
@@ -18,12 +18,12 @@ Inorder to strength the dehaze ability on remote scene, the method applies a spe
 ### Datasets
 The synthetic datasets are available from the download link(超連結)
 #### Training:
-* Images synthesized utilizing NYU Depth V2 and OTS of [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/)
+Images synthesized utilizing NYU Depth V2 and OTS of [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/)<br />
 * nyu_ots_haze_uniform_train2 : training dataset
 * nyu_ots_haze_uniform_val2 : valditation dataset
 
 #### Testing:
-* 12 benchmark images and SOTS of [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/)
+12 benchmark images and SOTS of [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/)<br />
 * real_haze: 12 compared real hazy images
 * SOTS_indoor: 500 synthetic indoor hazy images
 * SOTS_outdoor: 500 synthetic outdoor hazy images
@@ -53,15 +53,17 @@ python train_final.py --fix_first_conv_blocks --bn_no_track_stats
 
 #### Testing:
 * The pretrained model is available from [the download link](超連結)
-* Put  the pretrained weight in the `current` folder.
-* .ipynb files in final dehazing result folders(global and local estimation method)*
+Put  the pretrained weight in the `current` folder.<br />
+.ipynb files in final dehazing result folders(global and local estimation method)<br />
 
 <p align='center'>
   <img src="illustrations/global_local_estimation.PNG" height='648' width='638'>
 </p>
 
 ### Evaluation on Real Hazy Images
-* The results of previous works are generated from the programs provided by the authors. For the paper without a given code, the program written by a third party will be executed for evaluation. Thus, the comparison results may different from the results directly produced by the authors.
+  The results of previous works are generated from the programs provided by the authors.<br />
+For the paper without a given code, the program written by a third party will be executed for evaluation.<br />
+Thus, the comparison results may different from the results directly produced by the authors.
 
 #### Result folders:
 * result0728_exp3_real_haze
