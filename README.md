@@ -5,7 +5,7 @@ Inorder to strength the dehaze ability on remote scene, the method applies a spe
 
 <p align='center'>
   <img src="illustrations/network_architecture.PNG" height='515' width='691'>
-</p>
+</div>
 
 
 ### Prerequisites
@@ -31,14 +31,16 @@ nyu_ots_haze_uniform_test2 : testing dataset
 real_haze_other: other real hazy images
 
 ### Procedure of Data Synthesis
- ![Alt text](illustrations/flowchart_of_synthesis.PNG)
+<p align='center'>
+<img src="illustrations/flowchart_of_synthesis.png" height="428px" width='615px'>
+</div>
  
 <p align='center'>
-<img src="illustrates/refined_depth_map.png" height="388px" width='642px'>
+<img src="illustrations/refined_depth_map.png" height="388px" width='642px'>
 </div>
 
 <p align='center'>
-<img src="illustrates/synthetic_hazy_image.png" height="517px" width='632px'>
+<img src="illustrations/synthetic_hazy_image.png" height="517px" width='632px'>
 </div>
 
 ### Usage
@@ -71,41 +73,41 @@ ref_papers_with_result ( folder contains 12 compared results)
 [link](超連結)
 
 <p align='center'>
-<img src="illustrates/women.png" height="400px" width='631px'>
+<img src="illustrations/women.png" height="400px" width='631px'>
 </div>
 
 <p align='center'>
-<img src="illustrates/yosemite2.png" height="578px" width='606px'>
+<img src="illustrations/yosemite2.png" height="578px" width='606px'>
 </div>
 
 <p align='center'>
-<img src="illustrates/lviv.png" height="735px" width='451px'>
+<img src="illustrations/lviv.png" height="735px" width='451px'>
 </div>
 
 <p align='center'>
-<img src="illustrates/manhattan2.png" height="735px" width='447px'>
+<img src="illustrations/manhattan2.png" height="735px" width='447px'>
 </div>
 
 <p align='center'>
-<img src="illustrates/yosemite1.png" height="695px" width='449px'>
+<img src="illustrations/yosemite1.png" height="695px" width='449px'>
 </div>
 
 <p align='center'>
-<img src="illustrates/landscape.png" height="745px" width='442px'>
+<img src="illustrations/landscape.png" height="745px" width='442px'>
 </div>
 
 ### Evaluation on Synthetic Hazy Images
 
 <p align='center'>
-<img src="illustrates/sots_configurations.png" height="261px" width='421px'>
+<img src="illustrations/sots_configurations.png" height="261px" width='421px'>
 </div>
 
 <p align='center'>
-<img src="illustrates/sots_psnr_ssim.png" height="438px" width='349px'>
+<img src="illustrations/sots_psnr_ssim.png" height="438px" width='349px'>
 </div>
 
 <p align='center'>
-<img src="illustrates/sots_dehazed.png" height="422px" width='430px'>
+<img src="illustrations/sots_dehazed.png" height="422px" width='430px'>
 </div>
 
 
