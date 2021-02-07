@@ -33,5 +33,5 @@ result0803_exp3_real_haze_other
 result0803_exp3_sots_indoor
 result0803_exp3_sots_outdoor
 
-dehazed restuls for comparing with state-of-the-arts: (in thesis)
+dehazed results for comparing with state-of-the-arts: (in thesis)
 ref_papers_with_result ( folder contains 12 compared results)
