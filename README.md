@@ -18,17 +18,17 @@ Inorder to strength the dehaze ability on remote scene, the method applies a spe
 ### Datasets
 The synthetic datasets are available from the download link(超連結)
 #### Training:
-Images synthesized utilizing NYU Depth V2 and OTS of [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/)
-nyu_ots_haze_uniform_train2 : training dataset
-nyu_ots_haze_uniform_val2 : valditation dataset
+* Images synthesized utilizing NYU Depth V2 and OTS of [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/)
+* nyu_ots_haze_uniform_train2 : training dataset
+* nyu_ots_haze_uniform_val2 : valditation dataset
 
 #### Testing:
-12 benchmark images and SOTS of [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/)
-real_haze: 12 compared real hazy images
-SOTS_indoor: 500 synthetic indoor hazy images
-SOTS_outdoor: 500 synthetic outdoor hazy images
-nyu_ots_haze_uniform_test2 : testing dataset
-real_haze_other: other real hazy images
+* 12 benchmark images and SOTS of [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/)
+* real_haze: 12 compared real hazy images
+* SOTS_indoor: 500 synthetic indoor hazy images
+* SOTS_outdoor: 500 synthetic outdoor hazy images
+* nyu_ots_haze_uniform_test2 : testing dataset
+* real_haze_other: other real hazy images
 
 ### Procedure of Data Synthesis
 <p align='center'>
@@ -52,24 +52,24 @@ python train_final.py --fix_first_conv_blocks --bn_no_track_stats
  ```
 
 #### Testing:
-The pretrained model is available from [the download link](超連結)
-*Put  the pretrained weight in the `current` folder.*
-*.ipynb files in final dehazing result folders(global and local estimation method)*
+* The pretrained model is available from [the download link](超連結)
+* Put  the pretrained weight in the `current` folder.
+* .ipynb files in final dehazing result folders(global and local estimation method)*
 
 <p align='center'>
   <img src="illustrations/global_local_estimation.PNG" height='648' width='638'>
 </p>
 
 ### Evaluation on Real Hazy Images
-*The results of previous works are generated from the programs provided by the authors. For the paper without a given code, the program written by a third party will be executed for evaluation. Thus, the comparison results may different from the results directly produced by the authors.*
+* The results of previous works are generated from the programs provided by the authors. For the paper without a given code, the program written by a third party will be executed for evaluation. Thus, the comparison results may different from the results directly produced by the authors.
 
 #### Result folders:
-result0728_exp3_real_haze
-result0803_exp3_real_haze_other
-result0803_exp3_sots_indoor
-result0803_exp3_sots_outdoor
+* result0728_exp3_real_haze
+* result0803_exp3_real_haze_other
+* result0803_exp3_sots_indoor
+* result0803_exp3_sots_outdoor
 #### Dehazed results for comparing with state-of-the-arts:
-ref_papers_with_result ( folder contains 12 compared results)
+* ref_papers_with_result ( folder contains 12 compared results)
 [link](超連結)
 
 <p align='center'>
