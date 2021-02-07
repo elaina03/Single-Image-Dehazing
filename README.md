@@ -1,7 +1,7 @@
 ##  DenseFeaturesNet: a single image dehazing network with refined transmission estimation and local atmospheric light prediction
 
-The proposed DenseFeaturesNet exploits the pretrained DenseNet-121 to generate favorable representative features of hazy image, applies two decoders for jointly forecasting the transmission map and global atmospheric light, and finally requires the dehazed image through a refinement module.<br />
-Inorder to strength the dehaze ability on remote scene, the method applies a specific synthesis procedure utilizing refined depth images, the WMSE derived from transmission map for loss computation, and a local estimation method for enhancing the applicability of dehazing in real life.
+  The proposed DenseFeaturesNet exploits the pretrained DenseNet-121 to generate favorable representative features of hazy image, applies two decoders for jointly forecasting the transmission map and global atmospheric light, and finally requires the dehazed image through a refinement module.<br /><br />
+  Inorder to strength the dehaze ability on remote scene, the method applies a specific synthesis procedure utilizing refined depth images, the WMSE derived from transmission map for loss computation, and a local estimation method for enhancing the applicability of dehazing in real life.
 
 <p align='center'>
   <img src="illustrations/network_architecture.PNG" height='515' width='691'>
@@ -52,7 +52,7 @@ python train_final.py --fix_first_conv_blocks --bn_no_track_stats
  ```
 
 #### Testing:
-* The pretrained model is available from [the download link](超連結)
+* The pretrained model is available from [the download link](超連結)<br />
 Put  the pretrained weight in the `current` folder.<br />
 .ipynb files in final dehazing result folders(global and local estimation method)<br />
 
