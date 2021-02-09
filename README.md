@@ -98,6 +98,7 @@ Thus, the comparison results may different from the results directly produced by
 
 <p align='center'>
   <img src="illustrations/landscape.PNG" height='745' width='442'>
+  <figcaption>Qualitative comparsion on Image Landscape</figcaption>
 </p>
 
 ### Evaluation on Synthetic Hazy Images
