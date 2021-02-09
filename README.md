@@ -5,6 +5,8 @@ Inorder to strength the dehaze ability on remote scene, the method applies a spe
 
 <p align='center'>
   <img src="illustrations/network_architecture.PNG" height='515' width='691'>
+    <br>
+    <em>Fig. 1: The proposed network architecture</em>
 </p>
 
 
@@ -33,14 +35,20 @@ Images synthesized utilizing `NYU Depth V2` and `OTS` of [RESIDE](https://sites.
 ### Procedure of Data Synthesis
 <p align='center'>
   <img src="illustrations/flowchart_of_synthesis.PNG" height='428' width='615'>
+    <br>
+    <em>Fig. 2: The flowchart of synthesis method</em>
 </p>
  
 <p align='center'>
   <img src="illustrations/refined_depth_map.PNG" height='388' width='642'>
+    <br>
+    <em>Fig. 3: Examples for the refined depth map</em>
 </p>
 
 <p align='center'>
   <img src="illustrations/synthetic_hazy_image.PNG" height='517' width='632'>
+    <br>
+    <em>Fig. 4: Examples for the synthetic hazy images</em>
 </p>
 
 ### Usage
@@ -58,6 +66,8 @@ The testing .ipynb files are in `final dehazing result folders`. ( including glo
 
 <p align='center'>
   <img src="illustrations/global_local_estimation.PNG" height='648' width='638'>
+    <br>
+    <em>Fig. 5: An example of the global and local estimation method</em>
 </p>
 
 ### Evaluation on Real Hazy Images
@@ -77,22 +87,32 @@ Thus, the comparison results may different from the results directly produced by
 
 <p align='center'>
   <img src="illustrations/women.PNG" height='400' width='631'>
+    <br>
+    <em>Fig. 6: Qualitative comparsion on Image Women</em>
 </p>
 
 <p align='center'>
   <img src="illustrations/yosemite2.PNG" height='578' width='606'>
+    <br>
+    <em>Fig. 7: Qualitative comparsion on Image Yosemite 2</em>
 </p>
 
 <p align='center'>
   <img src="illustrations/lviv.PNG" height='735' width='451'>
+    <br>
+    <em>Fig. 8: Qualitative comparsion on Image Lviv</em>
 </p>
 
 <p align='center'>
   <img src="illustrations/manhattan2.PNG" height='735' width='447'>
+    <br>
+    <em>Fig. 9: Qualitative comparsion on Image Manhattan 2</em>
 </p>
 
 <p align='center'>
   <img src="illustrations/yosemite1.PNG" height='695' width='449'>
+    <br>
+    <em>Fig. 10: Qualitative comparsion on Image Yosemite 1</em>
 </p>
 
 <p align='center'>
