@@ -34,13 +34,13 @@ Images synthesized utilizing `NYU Depth V2` and `OTS` of [RESIDE](https://sites.
 
 ### Procedure of Data Synthesis
 <p align='center'>
-  <img src="illustrations/flowchart_of_synthesis.jpg" height='400' width='500'>
+  <img src="illustrations/flowchart_of_synthesis.jpg" height='400' width='600'>
     <br>
     <em>Fig. 2: The flowchart of synthesis method</em>
 </p>
  
 <p align='center'>
-  <img src="illustrations/refined_depth_map.jpg" height='400' width='500'>
+  <img src="illustrations/refined_depth_map.jpg" height='400' width='600'>
     <br>
     <em>Fig. 3: Examples for the refined depth map</em>
 </p>
