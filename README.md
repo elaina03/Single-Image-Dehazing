@@ -102,17 +102,27 @@ Thus, the comparison results may different from the results directly produced by
 
 ### Evaluation on Synthetic Hazy Images
 
-<p align='center'>
-  <img src="illustrations/sots_configurations.PNG" height='261' width='421'>
-</p>
+#### Quantitative comparsion on SOTS Indoor/Outdoor Dataset
+|Methods|Indoor(PSNR/SSIM)|Outdoor(PSNR/SSIM)|
+|-|-|-|
+|DCP|16.62/0.8179|19.13/0.8148|
+|DehazeNet|21.14/0.8472|22.46/0.8514|
+|AOD-Net|19.06/0.8504|20.29/0.8765|
+|GridDehazeNet|32.16/0.9836|30.86/0.9819|
+|FFA-Net|36.39/0.9886|33.57/0.9840|
+|DenseFeaturesNet|24.51/0.9130|24.95/0.9321|
 
-<p align='center'>
-  <img src="illustrations/sots_psnr_ssim.PNG" height='438' width='349'>
-</p>
+#### Comparsion on SOTS Indoor Dataset with different configurations
+|Methods|Result using formula(PSNR/SSIM)|Result after refinement module(PSNR/SSIM)|
+|-|-|-|
+|local estimation|23.06/0.8981|20.87/0.8993|
+|global estimation|24.51/0.9130|22.29/0.9188|
 
-<p align='center'>
-  <img src="illustrations/sots_dehazed.PNG" height='422' width='430'>
-</p>
+#### Comparsion on SOTS Outdoor Dataset with different configurations
+|Methods|Result using formula(PSNR/SSIM)|Result after refinement module(PSNR/SSIM)|
+|-|-|-|
+|local estimation|22.96/0.9375|22.89/0.9303|
+|global estimation|24.10/0.9364|24.95/0.9321|
 
 
 
