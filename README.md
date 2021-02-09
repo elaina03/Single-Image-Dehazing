@@ -98,25 +98,25 @@ Thus, the comparison results may different from the results directly produced by
 </p>
 
 <p align='center'>
-  <img src="illustrations/lviv.JPG" height='650' width='400'>
+  <img src="illustrations/lviv.JPG" height='650' width='500'>
     <br>
     <em>Fig. 8: Qualitative comparsion on Image Lviv</em>
 </p>
 
 <p align='center'>
-  <img src="illustrations/manhattan2.JPG" height='650' width='400'>
+  <img src="illustrations/manhattan2.JPG" height='650' width='500'>
     <br>
     <em>Fig. 9: Qualitative comparsion on Image Manhattan 2</em>
 </p>
 
 <p align='center'>
-  <img src="illustrations/yosemite1.JPG" height='700' width='400'>
+  <img src="illustrations/yosemite1.JPG" height='700' width='500'>
     <br>
     <em>Fig. 10: Qualitative comparsion on Image Yosemite 1</em>
 </p>
 
 <p align='center'>
-  <img src="illustrations/landscape.JPG" height='700' width='400'>
+  <img src="illustrations/landscape.JPG" height='700' width='500'>
     <br>
     <em>Fig. 11: Qualitative comparsion on Image Landscape</em>
 </p>
