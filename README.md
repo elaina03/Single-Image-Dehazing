@@ -132,30 +132,15 @@ Thus, the comparison results may different from the results directly produced by
 |GridDehazeNet|32.16/0.9836|30.86/0.9819|
 |FFA-Net|36.39/0.9886|33.57/0.9840|
 |**DenseFeaturesNet**|**24.51**/**0.9130**|**24.95**/**0.9321**|
-<br />
+
 #### Comparsion on SOTS Indoor Dataset with different configurations
 |Methods|Result using formula(PSNR/SSIM)|Result after refinement module(PSNR/SSIM)|
 |:-:|:-:|:-:|
 |local estimation|23.06/0.8981|20.87/0.8993|
 |global estimation|**24.51**/0.9130|22.29/**0.9188**|
-<br />
+
 #### Comparsion on SOTS Outdoor Dataset with different configurations
 |Methods|Result using formula(PSNR/SSIM)|Result after refinement module(PSNR/SSIM)|
 |:-:|:-:|:-:|
 |local estimation|22.96/0.9375|22.89/0.9303|
 |global estimation|24.10/**0.9364**|**24.95**/0.9321|
-<br />
-
-### Bibliography
-[1] F. Cozman and E. Krotkov, “Depth from scattering,” in IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 1997.<br />
-[2] E. J. McCartney, “Optics of the Atmosphere: Scattering by Molecules and Particles,” New York, John Wiley and Sons, Inc., 1976. 421 p., vol. 1, 1976.<br />
-[3] S. G. Narasimhan and S. K. Nayar, “Chromatic Framework for Vision in Bad Weather,” in IEEE Conference on Computer Vision and Pattern Recognition (CVPR), vol. 1, pp. 598–605, 2000.<br />
-[4] S. G. Narasimhan and S. K. Nayar, “Vision and the Atmosphere,” in International Journal of Computer Vision (IJCV), vol. 48, no. 3, pp. 233-254, 2002.<br />
-[5] I. Omer and M. Andwerman, “Color Lines: Image Specific Color Representation,” in IEEE Conference on Computer Vision and Pattern Recognition(CVPR), 2004.<br />
-[6] A. Levin, D. Lischinski, and Y. Weiss, “A Closed Form Solution to Natural Image Matting,” in IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2006.<br />
-[7] S. G. Narasimhan and S. K. Nayar, “Contrast restoration of weather degraded images,” in IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), vol. 25, no. 6, pp. 713–724, 2003.<br />
-
-
-
-
-
