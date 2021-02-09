@@ -110,7 +110,7 @@ Thus, the comparison results may different from the results directly produced by
 |AOD-Net|19.06/0.8504|20.29/0.8765|
 |GridDehazeNet|32.16/0.9836|30.86/0.9819|
 |FFA-Net|36.39/0.9886|33.57/0.9840|
-|DenseFeaturesNet|24.51/0.9130|24.95/0.9321|
+|**DenseFeaturesNet|24.51/0.9130|24.95/0.9321**|
 
 #### Comparsion on SOTS Indoor Dataset with different configurations
 |Methods|Result using formula(PSNR/SSIM)|Result after refinement module(PSNR/SSIM)|
