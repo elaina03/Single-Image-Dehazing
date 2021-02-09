@@ -123,7 +123,7 @@ Thus, the comparison results may different from the results directly produced by
 
 ### Evaluation on Synthetic Hazy Images
 
-* Quantitative comparsion on SOTS Indoor/Outdoor Dataset
+#### Quantitative comparsion on SOTS Indoor/Outdoor Dataset
 |Methods|Indoor(PSNR/SSIM)|Outdoor(PSNR/SSIM)|
 |:-:|:-:|:-:|
 |DCP|16.62/0.8179|19.13/0.8148|
@@ -132,20 +132,19 @@ Thus, the comparison results may different from the results directly produced by
 |GridDehazeNet|32.16/0.9836|30.86/0.9819|
 |FFA-Net|36.39/0.9886|33.57/0.9840|
 |**DenseFeaturesNet**|**24.51**/**0.9130**|**24.95**/**0.9321**|
-
-* Comparsion on SOTS Indoor Dataset with different configurations
+<br />
+#### Comparsion on SOTS Indoor Dataset with different configurations
 |Methods|Result using formula(PSNR/SSIM)|Result after refinement module(PSNR/SSIM)|
 |:-:|:-:|:-:|
 |local estimation|23.06/0.8981|20.87/0.8993|
 |global estimation|**24.51**/0.9130|22.29/**0.9188**|
-
-
-* Comparsion on SOTS Outdoor Dataset with different configurations
+<br />
+#### Comparsion on SOTS Outdoor Dataset with different configurations
 |Methods|Result using formula(PSNR/SSIM)|Result after refinement module(PSNR/SSIM)|
 |:-:|:-:|:-:|
 |local estimation|22.96/0.9375|22.89/0.9303|
 |global estimation|24.10/**0.9364**|**24.95**/0.9321|
-
+<br />
 
 ### Bibliography
 [1] F. Cozman and E. Krotkov, “Depth from scattering,” in IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 1997.<br />
