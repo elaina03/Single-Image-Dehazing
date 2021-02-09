@@ -4,7 +4,7 @@ The proposed DenseFeaturesNet exploits the pretrained DenseNet-121 to generate f
 Inorder to strength the dehaze ability on remote scene, the method applies a specific synthesis procedure utilizing refined depth images, the WMSE derived from transmission map for loss computation, and a local estimation method for enhancing the applicability of dehazing in real life.
 
 <p align='center'>
-  <img src="illustrations/network_architecture.jpg" height='515' width='691'>
+  <img src="illustrations/network_architecture.jpg" height='973' width='1313'>
     <br>
     <em>Fig. 1: The proposed network architecture</em>
 </p>
