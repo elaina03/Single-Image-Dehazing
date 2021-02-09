@@ -146,5 +146,11 @@ Thus, the comparison results may different from the results directly produced by
 |global estimation|24.10/**0.9364**|**24.95**/0.9321|
 
 
+### Bibliography
+[1] F. Cozman and E. Krotkov, “Depth from scattering,” in IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 1997.
+[2] E. J. McCartney, “Optics of the Atmosphere: Scattering by Molecules and Particles,” New York, John Wiley and Sons, Inc., 1976. 421 p., vol. 1, 1976.
+[3] S. G. Narasimhan and S. K. Nayar, “Chromatic Framework for Vision in Bad Weather,” in IEEE Conference on Computer Vision and Pattern Recognition (CVPR), vol. 1, pp. 598–605, 2000.
+
+
 
 
