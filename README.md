@@ -19,12 +19,12 @@
 ### Datasets
 The synthetic datasets are available from [the download link](https://drive.google.com/drive/folders/1KINGcryTuqsaG-mH5ZDn9vFSDXs0kA7J?usp=sharing)
 #### Training:
-Images synthesized utilizing `NYU Depth V2` and `OTS of [RESIDE]`(https://sites.google.com/view/reside-dehaze-datasets/)<br />
+Images synthesized utilizing `NYU Depth V2` and `OTS` of [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/)<br />
 * nyu_ots_haze_uniform_train2 : training dataset
 * nyu_ots_haze_uniform_val2 : valditation dataset
 
 #### Testing:
-`12 benchmark images` and` SOTS of [RESIDE]`(https://sites.google.com/view/reside-dehaze-datasets/)<br />
+`12 benchmark images` and `SOTS` of [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/)<br />
 * real_haze: 12 compared real hazy images
 * SOTS_indoor: 500 synthetic indoor hazy images
 * SOTS_outdoor: 500 synthetic outdoor hazy images
@@ -66,11 +66,11 @@ Put  the pretrained weight in the `current` folder.<br />
 For the paper without a given code, the program written by a third party will be executed for evaluation.<br />
 Thus, the comparison results may different from the results directly produced by the authors.
 
-#### Result folders: [link](https://drive.google.com/drive/folders/1xuzxDlmfQmtomreVrVLRyHQ9BnXw4Xmz?usp=sharing)
+#### Result folders:
 * result0728_exp3_real_haze
 * result0803_exp3_real_haze_other
-* result0803_exp3_sots_indoor
-* result0803_exp3_sots_outdoor
+* result0803_exp3_sots_indoor  [link](https://drive.google.com/drive/folders/1xuzxDlmfQmtomreVrVLRyHQ9BnXw4Xmz?usp=sharing)
+* result0803_exp3_sots_outdoor  [link](https://drive.google.com/drive/folders/1xuzxDlmfQmtomreVrVLRyHQ9BnXw4Xmz?usp=sharing)
 
 #### Dehazed results for comparing with state-of-the-arts:
 * ref_papers_with_result ( folder contains 12 compared results)
