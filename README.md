@@ -65,7 +65,7 @@ Put the pretrained weight in the `current folder`.<br />
 The testing .ipynb files are in `final dehazing result folders`. ( including global and local estimation method)<br />
 
 <p align='center'>
-  <img src="illustrations/global_local_estimation.JPG" height='648' width='638'>
+  <img src="illustrations/global_local_estimation.JPG" height='550' width='600'>
     <br>
     <em>Fig. 5: An example of the global and local estimation method</em>
 </p>
@@ -86,37 +86,37 @@ Thus, the comparison results may different from the results directly produced by
 [link](https://drive.google.com/drive/folders/1xzt7yKqCDT0esINoj1F4JqkCxZYGzToZ?usp=sharing)
 
 <p align='center'>
-  <img src="illustrations/women.JPG" height='400' width='631'>
+  <img src="illustrations/women.JPG" height='400' width='600'>
     <br>
     <em>Fig. 6: Qualitative comparsion on Image Women</em>
 </p>
 
 <p align='center'>
-  <img src="illustrations/yosemite2.JPG" height='578' width='606'>
+  <img src="illustrations/yosemite2.JPG" height='550' width='600'>
     <br>
     <em>Fig. 7: Qualitative comparsion on Image Yosemite 2</em>
 </p>
 
 <p align='center'>
-  <img src="illustrations/lviv.JPG" height='735' width='451'>
+  <img src="illustrations/lviv.JPG" height='650' width='400'>
     <br>
     <em>Fig. 8: Qualitative comparsion on Image Lviv</em>
 </p>
 
 <p align='center'>
-  <img src="illustrations/manhattan2.JPG" height='735' width='447'>
+  <img src="illustrations/manhattan2.JPG" height='650' width='400'>
     <br>
     <em>Fig. 9: Qualitative comparsion on Image Manhattan 2</em>
 </p>
 
 <p align='center'>
-  <img src="illustrations/yosemite1.JPG" height='695' width='449'>
+  <img src="illustrations/yosemite1.JPG" height='700' width='400'>
     <br>
     <em>Fig. 10: Qualitative comparsion on Image Yosemite 1</em>
 </p>
 
 <p align='center'>
-  <img src="illustrations/landscape.JPG" height='745' width='442'>
+  <img src="illustrations/landscape.JPG" height='700' width='400'>
     <br>
     <em>Fig. 11: Qualitative comparsion on Image Landscape</em>
 </p>
