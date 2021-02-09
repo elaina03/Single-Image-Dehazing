@@ -54,8 +54,8 @@ python train_final.py --fix_first_conv_blocks --bn_no_track_stats
 
 #### Testing:
 * The pretrained model is available from [the download link](https://drive.google.com/drive/folders/1p5GgCZjH9YDlaeX4jIRsKEtQ3dEIPgfG?usp=sharing)<br />
-Put  the pretrained weight in the `current` folder.<br />
-.ipynb files in final dehazing result folders(global and local estimation method)<br />
+Put the pretrained weight in the `current folder`.<br />
+The testing .ipynb files are in `final dehazing result folders`. ( including global and local estimation method)<br />
 
 <p align='center'>
   <img src="illustrations/global_local_estimation.PNG" height='648' width='638'>
