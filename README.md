@@ -4,7 +4,7 @@ The proposed DenseFeaturesNet exploits the pretrained DenseNet-121 to generate f
 Inorder to strength the dehaze ability on remote scene, the method applies a specific synthesis procedure utilizing refined depth images, the WMSE derived from transmission map for loss computation, and a local estimation method for enhancing the applicability of dehazing in real life.
 
 <p align='center'>
-  <img src="illustrations/network_architecture.jpg" height='600' width='800'>
+  <img src="illustrations/network_architecture.jpg" height='500' width='700'>
     <br>
     <em>Fig. 1: The proposed network architecture</em>
 </p>
@@ -34,13 +34,13 @@ Images synthesized utilizing `NYU Depth V2` and `OTS` of [RESIDE](https://sites.
 
 ### Procedure of Data Synthesis
 <p align='center'>
-  <img src="illustrations/flowchart_of_synthesis.jpg" height='500' width='700'>
+  <img src="illustrations/flowchart_of_synthesis.jpg" height='400' width='500'>
     <br>
     <em>Fig. 2: The flowchart of synthesis method</em>
 </p>
  
 <p align='center'>
-  <img src="illustrations/refined_depth_map.jpg" height='400' width='600'>
+  <img src="illustrations/refined_depth_map.jpg" height='400' width='500'>
     <br>
     <em>Fig. 3: Examples for the refined depth map</em>
 </p>
@@ -92,31 +92,31 @@ Thus, the comparison results may different from the results directly produced by
 </p>
 
 <p align='center'>
-  <img src="illustrations/yosemite2.JPG" height='550' width='600'>
+  <img src="illustrations/yosemite2.JPG" height='500' width='550'>
     <br>
     <em>Fig. 7: Qualitative comparsion on Image Yosemite 2</em>
 </p>
 
 <p align='center'>
-  <img src="illustrations/lviv.JPG" height='650' width='500'>
+  <img src="illustrations/lviv.JPG" height='650' width='400'>
     <br>
     <em>Fig. 8: Qualitative comparsion on Image Lviv</em>
 </p>
 
 <p align='center'>
-  <img src="illustrations/manhattan2.JPG" height='650' width='500'>
+  <img src="illustrations/manhattan2.JPG" height='650' width='400'>
     <br>
     <em>Fig. 9: Qualitative comparsion on Image Manhattan 2</em>
 </p>
 
 <p align='center'>
-  <img src="illustrations/yosemite1.JPG" height='700' width='500'>
+  <img src="illustrations/yosemite1.JPG" height='700' width='400'>
     <br>
     <em>Fig. 10: Qualitative comparsion on Image Yosemite 1</em>
 </p>
 
 <p align='center'>
-  <img src="illustrations/landscape.JPG" height='700' width='500'>
+  <img src="illustrations/landscape.JPG" height='700' width='400'>
     <br>
     <em>Fig. 11: Qualitative comparsion on Image Landscape</em>
 </p>
